@@ -1,0 +1,606 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+/* HEADER ZONE */ 
+header {
+	background: #6681ad;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 3px solid #ffffff;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.logo {
+	display: inline-block;
+	float: right;
+	padding: 10px;
+}
+
+a.active {
+	color: #fff;
+    text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+    font-weight: bold;
+}
+
+a.logout {
+    color: #ba1616;
+	text-decoration: none;
+}
+
+a.logout:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav {
+	float: center;
+	padding: 20px;
+	font-family: 'Montserrat';
+}
+/* HEADER ZONE FINISH */
+
+/* ============================================== */
+
+/* BOTTOM ZONE */
+
+footer {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 60px;
+   background: rgba(115, 124, 140, 0);
+}
+
+font.bottom_part {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+/* BOTTOM ZONE FINISH */
+
+/* ============================================== */
+
+body {
+    background: linear-gradient(to left, #3b84f9, #3accf9);
+}
+
+/* ============================================== */
+
+/* PARTE CSS DI INDEX.PHP */
+
+form {
+    border: 3px solid #92bafc;
+	width: 50%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+div.warning_ban_zone {
+    border: 3px solid #d63131;
+	width: 50%;
+	background: linear-gradient(to right, #cc1818, #a51313);
+}
+
+div.warning_zone {
+    border: 3px solid #e3fc2a;
+	width: 50%;
+	background: linear-gradient(to right, #cfe814, #c0d80d);
+}
+
+div.warning_reg_zone {
+    border: 3px solid #38c62d;
+	width: 50%;
+	background: linear-gradient(to right, #1fc413, #1ba810);
+}
+
+font {
+	font-family: 'Montserrat';
+}
+
+font.color_info {
+	font-family: 'Montserrat';
+	color: white;
+}
+
+input[type=text], input[type=password] {
+	font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+	font-weight: bold;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+	font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type=button] {
+    background-color: #6681ad;
+	font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+#ChiudiAvviso {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+label.closeTxt:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+input.recoverypsw {
+    background-color: #3f7ee2;
+	font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+input:disabled {
+	border: 1px solid #999999;
+	background-color: #cccccc;
+	color: #666666;
+	opacity: 0.8;
+}
+
+input[type=button]:hover {
+	opacity: 0.8;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* ============================================== */
+
+/* PARTE CSS DI ME.PHP */
+
+div.user_personal {
+	border: 3px solid #92bafc;
+	width: 50%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+font.font_hmpg {
+	font-size: 30px;
+}
+
+div.news_zone {
+    border: 3px solid #92bafc;
+    height: 15%;
+	width: 40%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+font.newsTitle {
+	width: 100%;
+    font-size: 150%;
+    font-weight: bold;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+font.newsRead {
+	width: 100%;
+    font-size: 80%;
+    font-weight: bold;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+font.newsDesc {
+	width: 100%;
+    font-size: 90%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+font.newsAuthor {
+	width: 100%;
+    font-size: 50%;
+    font-weight: italic;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+a.readNews {
+    background-color: #6681ad;
+	font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+/* ============================================== */
+
+/* PARTE CSS DI NEWS.PHP */
+
+section.container {
+    width: 80%;
+    height: 200px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;    
+}
+
+div.body_show_all_news {
+    width: 20%;
+    float: left;
+    border: 3px solid #92bafc;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+div.body_news_space {
+    margin-right: 5%;
+    float: right;
+    border: 3px solid #92bafc;
+	width: 70%;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+div.body_comment_space {
+    margin-right: 2%;
+    margin-top: 1%;
+    float: center;
+    border: 3px solid #92bafc;
+	width: 80%;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;    
+}
+
+div.body_comment_space_first {
+    margin-top: 1%;
+    float: center;
+    border: 3px solid #92bafc;
+	width: 70%;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;    
+}
+
+form.body_write_comment_space {
+    margin-right: 10%;
+    margin-bottom: 1%;
+    float: right;
+    border: 3px solid #92bafc;
+	width: 60%;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+    display: block;
+}
+
+textarea.CommentNewsBox {
+    font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+
+input.sendComment {
+    background-color: #4CAF50;
+	font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+input.moderate {
+	background-color: #d63131;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+	color: white;
+	font-weight: bold;
+}
+
+font.user_written {
+    font-size: 80%;
+}
+
+a.news_page {
+	color: #000;
+	text-decoration: none;
+}
+
+a.news_page:hover {
+	text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+/* ============================================== */
+
+/* PARTE CSS DI ADMIN_MANAGER */
+
+input.ban, input.mtnBtnNo, input.regReset {
+	background-color: #d63131;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	color: white;
+	font-weight: bold;
+}
+
+input.unban, input.mtnBtnOk, input.regOk {
+	background-color: #38c62d;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	color: white;
+	font-weight: bold;
+}
+
+input.btnSearch {
+	background-color: #38c62d;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+	color: white;
+	font-weight: bold;
+}
+
+input:hover {
+	opacity: 0.8;
+}
+
+/* ============================================== */
+
+/* PARTE CSS DI INFO.PHP E CONTATTI.PHP */
+
+div.info_zone {
+	border: 3px solid #92bafc;
+	width: 50%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+a.contactMe {
+    background-color: #6681ad;
+	font-weight: bold;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+a.contactMe:hover {
+	opacity: 0.8;
+}
+
+textarea.contactBoxBody {
+    font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+    width: 60%;
+    height: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+
+/* ============================================== */
+
+/* PARTE CSS DI NEWS.PHP ED EDITNEWS.PHP */
+
+div.news_page {
+    border: 3px solid #92bafc;
+	width: 50%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+}
+
+div.moderation_part {
+    border: 3px solid #92bafc;
+	width: 50%;
+    height: inherit;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px; 
+}
+
+font.body_text_news {
+    font-size: 15px;
+}
+
+textarea.bodyNewsBox {
+    font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+    width: 60%;
+    height: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+
+textarea.NewsBox {
+    font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+
+a.btnEditNewsList {
+    background-color: #38c62d;
+    padding: 1px 3px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+	color: white;
+	font-weight: bold;
+}
+
+a.btnRmvNewsList {
+    background-color: #d63131;
+    padding: 1px 3px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 5%;
+	color: white;
+	font-weight: bold;
+}
+
+input.btnEditNews {
+	background-color: #38c62d;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+	color: white;
+	font-weight: bold;
+}
+
+textarea.descNewsBox {
+    font-family: 'Montserrat';
+	background-color: #4366a0;
+	color: white;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 15px;
+}
+
+table.news_page {
+	border: 3px solid #92bafc;
+	width: 50%;
+	background: #b0cdfc;
+	border-radius: 15px 50px 30px;
+	text-align: center-left;
+	font-family: 'Montserrat';
+}
+
+
+/* ============================================== */
+
+/* PARTE CSS DI REGISTER.PHP */
+
+div.passbox {
+    visibility: hidden;
+	display: inline-block;
+    width: 220px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px 6px 6px;
+    position: absolute;
+    z-index: 1;
+}
+    
+input.passbox:hover + div.passbox {
+    visibility: visible;
+	display: inline-block;
+}
+
+/* ============================================== */
